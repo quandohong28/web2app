@@ -1,21 +1,27 @@
 {
-  "name": "web2app",
-  "version": "1.0.0",
-  "description": "CLI tool to wrap any website into a native macOS Electron app (Catalina 10.15+ compatible)",
-  "bin": {
-    "web2app": "./bin/cli.js"
-  },
-  "main": "bin/cli.js",
-  "scripts": {
-    "start": "node bin/cli.js"
-  },
-  "keywords": ["electron", "webapp", "wrapper", "macos", "catalina"],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^4.1.2",
-    "commander": "^11.1.0",
-    "fs-extra": "^11.2.0",
-    "inquirer": "^8.2.6"
-  }
+	"name": "web2app",
+	"version": "1.0.0",
+	"description": "CLI tool to wrap any website into a native macOS Electron app (Catalina 10.15+ compatible)",
+	"bin": {
+		"web2app": "./bin/cli.js"
+	},
+	"main": "bin/cli.js",
+	"scripts": {
+		"start": "node bin/cli.js"
+	},
+	"keywords": [
+		"electron",
+		"webapp",
+		"wrapper",
+		"macos",
+		"catalina"
+	],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"commander": "^11.1.0",
+		"fs-extra": "^11.2.0",
+		"inquirer": "^8.2.6"
+	}
 }
